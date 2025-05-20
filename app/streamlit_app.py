@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 # Load model
-model = joblib.load("D:\\Coding\\Projects\\Loan Predictor\\model\\loan_model.pkl")
+model = joblib.load("model/loan_model.pkl")
 
 # Title
 st.title("🏦 Loan Eligibility Predictor")

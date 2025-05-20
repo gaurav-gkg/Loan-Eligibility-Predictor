@@ -10,7 +10,7 @@ import joblib
 import os
 
 # Load dataset
-df = pd.read_csv("D:\\Coding\Projects\\Loan Predictor\\data\\loan_data.csv")
+df = pd.read_csv("data/loan_data.csv")
 
 # Drop Loan_ID (not useful)
 df.drop('Loan_ID', axis=1, inplace=True)
